@@ -20,13 +20,13 @@ The main challenges faced in this project included:<br>
 🔹 Performance Optimization: Balancing model complexity with computational efficiency.<br>
 
 ### Step-by-Step Approach
-####1️⃣ Data Preprocessing & Feature Engineering<br>
+1️⃣ Data Preprocessing & Feature Engineering<br>
 Cleaned and handled missing values.<br>
 Encoded categorical variables like loan purpose, home ownership, and employment length.<br>
 Scaled numerical features to ensure consistency.<br>
 Applied SMOTE (Synthetic Minority Over-sampling Technique) to rebalance the dataset and prevent model bias.<br>
 
-####2️⃣ Machine Learning Model Selection & Optimization<br>
+2️⃣ Machine Learning Model Selection & Optimization<br>
 Model Evaluation<br>
 We evaluated multiple machine learning models to determine the best performer:<br>
 
