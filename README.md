@@ -1,6 +1,6 @@
 ## Loan Prediction API - Machine Learning Model Deployment with Flask and Swagger
 
-Project Description
+### Project Description
 This project is a Loan Prediction System that uses Machine Learning to determine the likelihood of loan approval based on applicant information such as loan amount, income, debt-to-income ratio, and credit history.
 
 The project follows an end-to-end machine learning workflow, including:
