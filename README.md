@@ -3,15 +3,15 @@
 ### Project Description
 This project is a Loan Prediction System that uses Machine Learning to determine the likelihood of loan approval based on applicant information such as loan amount, income, debt-to-income ratio, and credit history.
 
-The project follows an end-to-end machine learning workflow, including:
-✔ **Data Preprocessing & Feature Engineering
-✔ **Machine Learning Model Selection & Optimization
-✔ **Model Interpretability using SHAP
-✔ **API Deployment with Flask & Swagger
+The project follows an end-to-end machine learning workflow, including:<br>
+✔ Data Preprocessing & Feature Engineering<br>
+✔ Machine Learning Model Selection & Optimization<br>
+✔ Model Interpretability using SHAP<br>
+✔ API Deployment with Flask & Swagger<br>
 
 This project demonstrates skills in data preprocessing, model selection, explainability, and API deployment, making it a valuable portfolio piece for machine learning and MLOps roles.
 
-Project Challenges
+### Project Challenges
 The main challenges faced in this project included:
 🔹 Imbalanced Data: The dataset had significantly more rejected loans than approved ones.
 🔹 Model Selection: Identifying the best ML model with high accuracy and generalizability.
@@ -19,7 +19,7 @@ The main challenges faced in this project included:
 🔹 API Deployment Issues: Managing routing conflicts, dependency mismatches, and Swagger UI integration.
 🔹 Performance Optimization: Balancing model complexity with computational efficiency.
 
-Step-by-Step Approach
+### Step-by-Step Approach
 1️⃣ Data Preprocessing & Feature Engineering
 Cleaned and handled missing values.
 Encoded categorical variables like loan purpose, home ownership, and employment length.
