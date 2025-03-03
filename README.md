@@ -75,13 +75,13 @@ Problem: The API initially failed to start due to SystemExit errors and dependen
 Problem: Swagger UI loaded but did not show the /predict endpoint.<br>
 ✅ Solution: Ensured correct function docstrings and verified that Swagger(app) was properly initialized.<br>
 
-Final Results & Key Takeaways<br>
+### Final Results & Key Takeaways<br>
 ✔ Best ML Model: Random Forest Classifier (outperformed Logistic Regression and XGBoost).<br>
 ✔ SHAP Visualizations: Explained the top features influencing loan approval.<br>
 ✔ Fully Deployed Flask API: Interactive Swagger UI and functional prediction endpoint.<br>
 ✔ Technical Issues Resolved: Overcame imbalanced data, API deployment errors, and performance bottlenecks.<br>
 
-Recommendations for Further Improvement<br>
+### Recommendations for Further Improvement<br>
 🚀 Dockerize the Application<br>
 
 Package into a Docker container for seamless deployment across environments.<br>
@@ -98,7 +98,7 @@ Experiment with additional models like CatBoost or deep learning architectures.<
 
 Use tools like AWS CloudWatch or ELK Stack for tracking API performance.<br>
 
-Conclusion<br>
+### Conclusion<br>
 This project showcases end-to-end machine learning skills, including model selection, hyperparameter tuning, interpretability, and API deployment. It is a strong portfolio project demonstrating expertise in MLOps, data science, and Flask API engineering.
 
 🔥 If you find this project useful, give it a ⭐ on GitHub! 🚀
