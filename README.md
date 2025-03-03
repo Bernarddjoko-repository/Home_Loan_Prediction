@@ -39,7 +39,7 @@ Recall: 72%<br>
 Strengths: Works well for linearly separable data and is easy to interpret.<br>
 Weaknesses: Struggled with complex relationships in the data, leading to moderate performance.<br>
 
-Random Forest (Best Model)<br>
+#### Random Forest (Best Model)<br>
 Accuracy: 91%<br>
 Precision: 89%<br>
 Recall: 90%<br>
@@ -47,7 +47,7 @@ Strengths: Excellent at handling non-linearity, feature interactions, and missin
 Weaknesses: Slightly less interpretable than Logistic Regression, but SHAP values were used for explainability.<br>
 Best trade-off between performance and interpretability.<br>
 
-XGBoost<br>
+#### XGBoost<br>
 Accuracy: 89%<br>
 Precision: 87%<br>
 Recall: 86%<br>
