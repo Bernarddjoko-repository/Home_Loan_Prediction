@@ -1,3 +1,6 @@
+![Loan Prediction Image](https://github.com/user-attachments/assets/62b693b2-be94-46d8-a1db-d8da5b7a0745)
+
+
 ## Loan Prediction API - Machine Learning Model Deployment with Flask and Swagger
 
 ### Project Description
