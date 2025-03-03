@@ -58,6 +58,7 @@ A prediction route (/predict) that accepts loan applicant data and returns appro
 A Swagger UI (/apidocs/) to visualize API endpoints and test predictions.<br>
 
 5️⃣ Problems Faced & Solutions<br>
+
 🔹 1. Imbalanced Dataset<br>
 Problem: The dataset was heavily skewed towards rejected loans, leading to biased predictions.<br>
 ✅ Solution: Used SMOTE to generate synthetic examples and balance the dataset.
@@ -66,38 +67,38 @@ Problem: The dataset was heavily skewed towards rejected loans, leading to biase
 Problem: SHAP calculations were computationally expensive for large datasets.<br>
 ✅ Solution: Reduced the dataset sample size for SHAP analysis, maintaining interpretability while improving performance.<br>
 
-🔹 3. Flask API Deployment Issues
-Problem: The API initially failed to start due to SystemExit errors and dependency conflicts.
-✅ Solution: Disabled the Flask reloader, corrected dependency mismatches, and resolved boto3 issues.
+🔹 3. Flask API Deployment Issues<br>
+Problem: The API initially failed to start due to SystemExit errors and dependency conflicts.<br>
+✅ Solution: Disabled the Flask reloader, corrected dependency mismatches, and resolved boto3 issues.<br>
 
-🔹 4. Swagger UI Not Displaying Endpoints
-Problem: Swagger UI loaded but did not show the /predict endpoint.
-✅ Solution: Ensured correct function docstrings and verified that Swagger(app) was properly initialized.
+🔹 4. Swagger UI Not Displaying Endpoints<br>
+Problem: Swagger UI loaded but did not show the /predict endpoint.<br>
+✅ Solution: Ensured correct function docstrings and verified that Swagger(app) was properly initialized.<br>
 
-Final Results & Key Takeaways
-✔ Best ML Model: Random Forest Classifier (outperformed Logistic Regression and XGBoost).
-✔ SHAP Visualizations: Explained the top features influencing loan approval.
-✔ Fully Deployed Flask API: Interactive Swagger UI and functional prediction endpoint.
-✔ Technical Issues Resolved: Overcame imbalanced data, API deployment errors, and performance bottlenecks.
+Final Results & Key Takeaways<br>
+✔ Best ML Model: Random Forest Classifier (outperformed Logistic Regression and XGBoost).<br>
+✔ SHAP Visualizations: Explained the top features influencing loan approval.<br>
+✔ Fully Deployed Flask API: Interactive Swagger UI and functional prediction endpoint.<br>
+✔ Technical Issues Resolved: Overcame imbalanced data, API deployment errors, and performance bottlenecks.<br>
 
-Recommendations for Further Improvement
-🚀 Dockerize the Application
+Recommendations for Further Improvement<br>
+🚀 Dockerize the Application<br>
 
-Package into a Docker container for seamless deployment across environments.
-🌍 Deploy on Cloud Services
+Package into a Docker container for seamless deployment across environments.<br>
+🌍 Deploy on Cloud Services<br>
 
-Host the API on AWS Lambda, Google Cloud, or Azure for broader accessibility.
-📊 Build a User-Friendly Interface
+Host the API on AWS Lambda, Google Cloud, or Azure for broader accessibility.<br>
+📊 Build a User-Friendly Interface<br>
 
-Develop a Streamlit or React UI to let users enter loan details and receive predictions.
-🔍 Enhance Model Performance
+Develop a Streamlit or React UI to let users enter loan details and receive predictions.<br>
+🔍 Enhance Model Performance<br>
 
-Experiment with additional models like CatBoost or deep learning architectures.
-📡 Implement API Monitoring & Logging
+Experiment with additional models like CatBoost or deep learning architectures.<br>
+📡 Implement API Monitoring & Logging<br>
 
-Use tools like AWS CloudWatch or ELK Stack for tracking API performance.
+Use tools like AWS CloudWatch or ELK Stack for tracking API performance.<br>
 
-Conclusion
+Conclusion<br>
 This project showcases end-to-end machine learning skills, including model selection, hyperparameter tuning, interpretability, and API deployment. It is a strong portfolio project demonstrating expertise in MLOps, data science, and Flask API engineering.
 
 🔥 If you find this project useful, give it a ⭐ on GitHub! 🚀
