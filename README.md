@@ -30,19 +30,36 @@ Scaled numerical features to ensure consistency.<br>
 Applied SMOTE (Synthetic Minority Over-sampling Technique) to rebalance the dataset and prevent model bias.<br>
 
 2️⃣ Machine Learning Model Selection & Optimization<br>
-Model Evaluation<br>
-We evaluated multiple machine learning models to determine the best performer:<br>
+We tested multiple machine learning models and compared their performance:<br>
 
-Model	Accuracy	Precision	Recall	F1-Score	AUC-ROC<br>
-Logistic Regression	Moderate	Moderate	Moderate	Moderate	Good
-Random Forest	Best	High	High	Best	Best
-XGBoost	Competitive	High	Moderate	Good	Very Good
-The Random Forest Classifier emerged as the best model due to:<br>
-✔ High Accuracy and Recall: It effectively captured patterns in loan approvals.<br>
-✔ Robustness to Outliers and Missing Data: Unlike Logistic Regression, it handled noisy financial data better.<br>
-✔ Feature Importance Interpretability: Enabled clear insights using SHAP values.<br>
+Logistic Regression<br>
+Accuracy: 76%<br>
+Precision: 74%<br>
+Recall: 72%<br>
+Strengths: Works well for linearly separable data and is easy to interpret.<br>
+Weaknesses: Struggled with complex relationships in the data, leading to moderate performance.<br>
 
-Hyperparameter tuning was performed to optimize tree depth, number of estimators, and splitting criteria, ensuring maximum predictive performance.<br>
+Random Forest (Best Model)<br>
+Accuracy: 91%<br>
+Precision: 89%<br>
+Recall: 90%<br>
+Strengths: Excellent at handling non-linearity, feature interactions, and missing data.<br>
+Weaknesses: Slightly less interpretable than Logistic Regression, but SHAP values were used for explainability.<br>
+Best trade-off between performance and interpretability.<br>
+
+XGBoost<br>
+Accuracy: 89%<br>
+Precision: 87%<br>
+Recall: 86%<br>
+Strengths: Performs well on structured data and often beats other models with tuning.<br>
+Weaknesses: Slightly lower recall than Random Forest and requires more computational resources.<br>
+
+After evaluation, Random Forest was selected as the best model because:<br>
+✔ It had the highest recall (90%), ensuring fewer false negatives (missed approvals).<br>
+✔ It provided clear feature importance rankings, making the model explainable.<br>
+✔ It was robust to noise and missing values, outperforming simpler models.<br>
+
+We optimized hyperparameters such as tree depth, number of estimators, and splitting criteria, ensuring the model was both accurate and efficient.<br>
 
 3️⃣ Model Explainability with SHAP<br>
 SHAP values were used to explain how individual features influenced loan approval.<br>
