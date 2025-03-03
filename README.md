@@ -12,12 +12,12 @@ The project follows an end-to-end machine learning workflow, including:<br>
 This project demonstrates skills in data preprocessing, model selection, explainability, and API deployment, making it a valuable portfolio piece for machine learning and MLOps roles.
 
 ### Project Challenges
-The main challenges faced in this project included:
-🔹 Imbalanced Data: The dataset had significantly more rejected loans than approved ones.
-🔹 Model Selection: Identifying the best ML model with high accuracy and generalizability.
-🔹 Feature Interpretability: Ensuring model predictions were explainable using SHAP values.
-🔹 API Deployment Issues: Managing routing conflicts, dependency mismatches, and Swagger UI integration.
-🔹 Performance Optimization: Balancing model complexity with computational efficiency.
+The main challenges faced in this project included:<br>
+🔹 Imbalanced Data: The dataset had significantly more rejected loans than approved ones.<br>
+🔹 Model Selection: Identifying the best ML model with high accuracy and generalizability.<br>
+🔹 Feature Interpretability: Ensuring model predictions were explainable using SHAP values.<br>
+🔹 API Deployment Issues: Managing routing conflicts, dependency mismatches, and Swagger UI integration.<br>
+🔹 Performance Optimization: Balancing model complexity with computational efficiency.<br>
 
 ### Step-by-Step Approach
 1️⃣ Data Preprocessing & Feature Engineering
