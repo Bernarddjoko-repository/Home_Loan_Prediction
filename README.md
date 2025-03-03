@@ -20,14 +20,15 @@ The main challenges faced in this project included:<br>
 🔹 Performance Optimization: Balancing model complexity with computational efficiency.<br>
 
 ### Step-by-Step Approach
-1️⃣ Data Preprocessing & Feature Engineering<br>
+####1️⃣ Data Preprocessing & Feature Engineering<br>
 Cleaned and handled missing values.<br>
 Encoded categorical variables like loan purpose, home ownership, and employment length.<br>
 Scaled numerical features to ensure consistency.<br>
 Applied SMOTE (Synthetic Minority Over-sampling Technique) to rebalance the dataset and prevent model bias.<br>
-2️⃣ Machine Learning Model Selection & Optimization
-Model Evaluation
-We evaluated multiple machine learning models to determine the best performer:
+
+####2️⃣ Machine Learning Model Selection & Optimization<br>
+Model Evaluation<br>
+We evaluated multiple machine learning models to determine the best performer:<br>
 
 Model	Accuracy	Precision	Recall	F1-Score	AUC-ROC
 Logistic Regression	Moderate	Moderate	Moderate	Moderate	Good
@@ -40,7 +41,7 @@ The Random Forest Classifier emerged as the best model due to:
 
 Hyperparameter tuning was performed to optimize tree depth, number of estimators, and splitting criteria, ensuring maximum predictive performance.
 
-3️⃣ Model Explainability with SHAP
+###3️⃣ Model Explainability with SHAP
 SHAP values were used to explain how individual features influenced loan approval.
 Key insights from SHAP analysis:
 Loan amount, annual income, and debt-to-income ratio had the most impact.
@@ -48,14 +49,14 @@ Higher income and lower debt improved approval chances.
 Loan term (36 vs. 60 months) played a moderate role in decision-making.
 This interpretability made the model trustworthy and explainable, which is crucial in financial decision-making.
 
-4️⃣ Deployment as a Flask API
+###4️⃣ Deployment as a Flask API
 The trained Random Forest model was wrapped in a Flask API.
 Swagger UI was integrated to provide interactive documentation for API users.
 The API exposed:
 A home route (/) to verify the API is running.
 A prediction route (/predict) that accepts loan applicant data and returns approval predictions.
 A Swagger UI (/apidocs/) to visualize API endpoints and test predictions.
-5️⃣ Problems Faced & Solutions
+###5️⃣ Problems Faced & Solutions
 🔹 1. Imbalanced Dataset
 Problem: The dataset was heavily skewed towards rejected loans, leading to biased predictions.
 ✅ Solution: Used SMOTE to generate synthetic examples and balance the dataset.
