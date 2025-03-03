@@ -32,7 +32,7 @@ Applied SMOTE (Synthetic Minority Over-sampling Technique) to rebalance the data
 2️⃣ Machine Learning Model Selection & Optimization<br>
 We tested multiple machine learning models and compared their performance:<br>
 
-Logistic Regression<br>
+#### Logistic Regression<br>
 Accuracy: 76%<br>
 Precision: 74%<br>
 Recall: 72%<br>
